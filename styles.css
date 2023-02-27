@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura / vh- ALTURA */
+    width: 100vw; /*vw- largura  */
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+.caixa-maior {
+    background-color: #000000; /* Troca de cor de fundo */
+    width: 95%; /*Largura */
+    max-width: 420px; /*Largura */
+    opacity: 0.8; /* transparencia do item */
+    padding: 28px; /* LARGURA DA BORDA*/
+    border-radius: 25px; /* formato DA BORDA*/
+
+}
+
+input {
+    border: none; /* borda do elemento */
+    outline: none; /* borda quando seleciona o elemento */
+    padding: 10px; /*espaçamento interno*/
+    border-radius: 24px; /* arredonda as bordas */
+    font-size: 20px; 
+    background-color: #7C7C7C2B;
+    color: #ffff;
+    width: calc( 100% - 100px); /*Vai sempre se adptar o tamanho da tela*/
+}
+
+button {   /*BOTÃO CONFIGURAÇÔES */
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7C7C7C2B;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover { /*hover, aode mouse passar ele faz uma determinada cor */
+    background-color: #7C7C7C6B;
+}
+
+.caixa-media {
+    margin-top: 30px; /* Ele distância*/
+
+}
+
+.caixa-menor {
+     display: flex;
+     margin-top: 20px;
+     align-items: center;
+
+}
+.lupa {
+    height: 20px; /* lupa de pesquisa */
+}
+
+h2 {
+    color: white;
+    font-size: 28px; /* tamanho do texto */
+}
+
+
+.temp {
+    color: #ffff;
+    margin-top: 20PX;
+}
+
+.descricao {
+    color: #ffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffff;
+    margin-top: 20px;
+}   
